@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(0, 0, 0);   
+}
+.container{
+    box-shadow: 0 0 10px red;
+    padding: 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.regform{
+    box-shadow: 5px 10px 15px white;
+    background-color: rgb(77, 76, 76);
+    width: 400px;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.h3{
+    font-size: 25px;
+    color: rgb(119, 235, 255);
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    width: 100%;
+    padding: 20px;
+    /* background-color: gray; */
+}
+input{
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+label{
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+    font-size: 12px;
+}
+.login{
+    cursor: pointer;
+    position: relative;
+    right: 90px;
+    bottom: 30px;
+    width: 100px;
+}
+.login-with{
+    position: relative;
+    bottom: 30px;
+}
+.password{
+    cursor: pointer;
+    position: relative;
+    left: 90px;
+    bottom: 35px;
+    font-size: 12px;   
+}
+#checkbox{
+    cursor: pointer;
+    position: relative;
+    right: 170px;
+    /* padding: 20px; */
+    background-color: bisque;
+}
+button{
+     padding: 10px 20px;
+     border-radius: 10px;
+}
+.F{
+    cursor: pointer;
+    position: relative;
+    background-color: blue;
+    right:20px;
+    bottom: 30px;
+    width: 80px;
+    color:#fff ;
+    font-weight: 900;
+
+}
+.G{
+    cursor: pointer;
+    position: relative;
+    background-color: red;
+    bottom: 30px;
+    width: 80px;
+    color:#fff;
+    font-weight: 900;
+}
+.T{
+    cursor: pointer;
+    position: relative;
+    background-color: aqua;
+    left: 20px;
+    bottom: 30px;
+    width: 80px;
+    color: #fff;
+    font-weight: 900;
+}
+.Dont{
+    position: relative;
+    bottom: 30px;
+}
+.Register{
+    color: rgb(99, 180, 255);
+    position: relative;
+    bottom: 1px;
+}
+
+.img img{
+    width: 400px;
+    height: 90vh;
+}
